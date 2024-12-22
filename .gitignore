@@ -1,0 +1,73 @@
+# Python Bytecode Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual Environment
+venv/
+env/
+.venv/
+venv.bak/
+*.env
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+# Exclude pipenv, poetry lock files if not using them
+Pipfile.lock
+poetry.lock
+
+# PyInstaller
+# Uncomment the line below if using PyInstaller to bundle your app
+# dist/
+# build/
+# *.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local configuration files
+*.env
+*.local
+
+# MacOS system files
+*.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Test and Coverage Reports
+.coverage
+nosetests.xml
+pytest-debug.log
+pytest*.log
+*.tox
+*.nox
+*.coverage
+*.hypothesis
+
+# Logs
+*.log
+
+# MyPy
+.mypy_cache/
+
+# dist folder for packaged distribution
+dist/
+
+# Egg files
+*.egg
+*.egg-info
+.eggs
